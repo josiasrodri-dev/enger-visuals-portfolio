@@ -1,0 +1,21 @@
+:root {
+    --color-background: #F5F1EA;
+    --color-surface: #EAE3D8;
+
+    --color-primary: #8C6A4A;
+    --color-secondary: #6F7863;
+
+    --color-text-primary: #1C1C1A;
+    --color-text-secondary: #706B63;
+    --color-border: #D8D0C4;
+}
+:root{
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+}
+:root{
+    --font-heading: "Cormorant Garamond";
+    --font-body: "Inter";
+}
