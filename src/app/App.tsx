@@ -1,13 +1,24 @@
-function App() {
+import Header from "./layout/header/Header"
+import Footer from "./layout/footer/Footer"
+import { useTranslation } from 'react-i18next';
 
-  const name: string = "Josías";
-  const age: number = 20;
+
+function App() {
+  const { t } = useTranslation();
+
+  
 
   return (
     <>
-      <h1>
-        hello {name}, tienes {age} años. 
-      </h1>
+      <Header />
+
+      <main>
+        <h2>{t("test")}</h2>
+        
+      </main>
+
+      <Footer />
+      
     </>
   )
 }
