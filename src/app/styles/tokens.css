@@ -1,6 +1,7 @@
 :root {
     --color-background: #F5F1EA;
     --color-surface: #EAE3D8;
+    --color-surface-hover: #dcd2c1;
 
     --color-primary: #8C6A4A;
     --color-secondary: #6F7863;
@@ -9,6 +10,20 @@
     --color-text-secondary: #706B63;
     --color-border: #D8D0C4;
 }
+
+[data-theme="dark"] {
+    --color-background: #111311;
+    --color-surface: #191C19;
+    --color-surface-hover: #272b27;
+
+    --color-primary: #A49572;
+    --color-secondary: #66705F;
+
+    --color-text-primary: #F0EFEA;
+    --color-text-secondary: #9D9F97;
+    --color-border: #30342F;
+}
+
 :root{
     --space-xs: 4px;
     --space-sm: 8px;
@@ -18,4 +33,30 @@
 :root{
     --font-heading: "Cormorant Garamond";
     --font-body: "Inter";
+}
+:root {
+    --radius-xs: 3px;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-full: 999px;
+}
+
+:root {
+    --shadow-sm: 0 8px 24px rgba(0,0,0,0.35);
+    --shadow-hover: 0 10px 30px rgba(246, 235, 181, 0.18);
+    --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+}
+:root {
+    --fs-body: 16px;
+    --fs-nav: clamp(16px, 4vw, 24px);
+    --fs-button: clamp(16px, 4vw, 20px);
+    --fs-subtitle: clamp(18px, 3vw, 32px);
+    --fs-title: clamp(30px, 8vw, 48px);
+    --fs-section-title: clamp(20px, 1vw, 32px);
+}
+:root{
+    --duration-fast: all .2s ease-in-out;
+    --duration-normal: all .5s ease-in-out;
+    --duration-slow: all 1s ease-in-out;
 }

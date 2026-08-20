@@ -4,8 +4,12 @@ html {
 
 body {
   background: var(--color-background);
-  color: var(--color-text);
-  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
 }
 
 a {
