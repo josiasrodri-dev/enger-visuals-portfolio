@@ -1,0 +1,70 @@
+.languages{
+    display: flex;
+    position: relative;
+    width: fit-content;
+}
+
+.languageButton{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-surface-hover);
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+.container_options{
+    background-color: var(--color-surface-hover);
+    padding: var(--space-sm);
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    border-radius: var(--radius-sm);
+}
+.container_options > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-xs) var(--space-sm);
+    border: none;
+    border-radius: var(--radius-xs);
+    transition: var(--duration-fast);
+}
+.container_options > button:hover{
+    transform: scale(1.02) translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+
+    background-color: currentColor;
+
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+
+.usa_icon{
+    background-image: url("../../assets/icons/usa-flat.svg");
+    mask-image: url("../../assets/icons/usa-flat.svg");
+    -webkit-mask-image: url("../../assets/icons/usa-flat.svg");
+}
+
+.dr_icon{
+    background-image: url("../../assets/icons/rd-flat.svg");
+    mask-image: url("../../assets/icons/rd-flat.svg");
+    -webkit-mask-image: url("../../assets/icons/rd-flat.svg");
+}
