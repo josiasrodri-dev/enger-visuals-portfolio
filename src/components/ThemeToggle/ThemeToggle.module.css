@@ -1,0 +1,17 @@
+.themeButton{
+    padding: var(--space-sm);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-md);
+    border-radius: var(--radius-sm);
+}
+.darkButton{
+    background-color: #111111;
+    color: #fafafa;
+}
+.lightButton{
+    background-color: #fafafa;
+    color: #111111;
+}
