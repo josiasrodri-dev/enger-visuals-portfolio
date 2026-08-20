@@ -1,17 +1,17 @@
 import { useTranslation } from 'react-i18next';
 
 
-function Home() {
+function Contact() {
   const { t } = useTranslation();
 
   return (
     <>
       <main>
-        <h2>{t("home.title")}</h2>
+        <h2>{t("contact.title")}</h2>
         
       </main>
     </>
   )
 }
 
-export default Home
+export default Contact

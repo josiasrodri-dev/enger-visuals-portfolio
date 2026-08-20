@@ -1,3 +1,14 @@
 {
-    "test": "This is a test"
+    "home": {
+        "title": "You're on home page"
+    },
+    "about": {
+        "title": "You're on about me page"
+    },
+    "projects": {
+        "title": "You're on my projects page"
+    },
+    "contact": {
+        "title": "You're on contact me page"
+    }
 }

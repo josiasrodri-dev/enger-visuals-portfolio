@@ -35,10 +35,10 @@ function Header(){
 
             <div ref={sidebarRef} className={`${isOpen ? style.navbar + " " +style.navbarOpen :  style.navbar}`}>
                 <div className={style.links}>
-                    <a href="">HOME</a>
-                    <a href="">ABOUT ME</a>
-                    <a href="">MY WORK</a>
-                    <a href="">CONTACT</a>
+                    <a href="/">HOME</a>
+                    <a href="/about">ABOUT ME</a>
+                    <a href="/projects">MY WORK</a>
+                    <a href="/contact">CONTACT</a>
                 </div>
 
                 <div className={style.user_preferences}>

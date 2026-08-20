@@ -1,3 +1,14 @@
 {
-    "test": "Esto es una prueba"
+    "home": {
+        "title": "Estás en la página de inicio."
+    },
+    "about": {
+        "title": "Estás en la página Acerca de mi."
+    },
+    "projects": {
+        "title": "Estás en la página de mis proyectos."
+    },
+    "contact": {
+        "title": "Estás en la página de mi contacto."
+    }
 }
