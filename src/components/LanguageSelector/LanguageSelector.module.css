@@ -38,7 +38,7 @@
     transition: var(--duration-fast);
 }
 .container_options > button:hover{
-    transform: scale(1.02) translateY(-2px);
+    transform: var(--hover-animation);
     box-shadow: var(--shadow-sm);
 }
 .icon{

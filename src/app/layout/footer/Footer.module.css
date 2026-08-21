@@ -1,0 +1,22 @@
+.footer{
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    margin: var(--space-sm);
+    border-radius: var(--radius-full);
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+}
+.social_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fs-button);
+    gap: var(--space-xs);
+}
+.social_links > a{
+    padding: var(--space-xs);
+    border-radius: var(--radius-sm);
+}

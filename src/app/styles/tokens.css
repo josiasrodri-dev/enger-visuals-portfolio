@@ -31,7 +31,7 @@
     --space-lg: 32px;
 }
 :root{
-    --font-heading: "Cormorant Garamond";
+    --font-heading: "Cormorant Garamond", serif;
     --font-body: "Inter";
 }
 :root {
@@ -51,12 +51,15 @@
     --fs-body: 16px;
     --fs-nav: clamp(16px, 4vw, 24px);
     --fs-button: clamp(16px, 4vw, 20px);
-    --fs-subtitle: clamp(18px, 3vw, 32px);
-    --fs-title: clamp(30px, 8vw, 48px);
-    --fs-section-title: clamp(20px, 1vw, 32px);
+    --fs-subtitle: clamp(16px, 3vw, 22px);
+    --fs-title: clamp(32px, 8vw, 48px);
+    --fs-section-title: clamp(26px, 4vw, 36px);
 }
 :root{
     --duration-fast: all .2s ease-in-out;
     --duration-normal: all .5s ease-in-out;
     --duration-slow: all 1s ease-in-out;
+}
+:root{
+    --hover-animation: scale(1.02) translateY(-2px);
 }

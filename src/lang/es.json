@@ -1,9 +1,19 @@
 {
     "home": {
         "title": "Enger Visuals",
+        "subtitle": "Fotografía / Realización cinematográfica",
         "desc": "Fotografía cinematográfica y narrativa visual enfocadas en capturar atmósferas, emociones y momentos significativos.",
         "projects": "Ver proyectos",
-        "contact": "Contáctame"
+        "contact": "Contáctame",
+        "selected-work": "Trabajo seleccionado",
+        "selected-desc": "Una selección de proyectos recientes e historias visuales.",
+        "view-all": "Ver todos los proyectos",
+        "gallery": "A través de mi lente",
+        "about-title": "Conoce a Enger",
+        "about-desc": "Soy Enger Cabrera, fotógrafo y creador audiovisual enfocado en crear imágenes auténticas e intencionales que capturen personas, historias y momentos significativos.",
+        "about-cta": "Conocer más",
+        "contact-title": "¿Tienes un proyecto en mente?",
+        "contact-desc": "¡Creemos algo que valga la pena recordar!"
     },
     "about": {
         "title": "Estás en la página Acerca de mi."

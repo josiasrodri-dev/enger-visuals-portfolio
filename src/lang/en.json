@@ -1,9 +1,19 @@
 {
     "home": {
         "title": "Enger Visuals",
+        "subtitle": "Photography / Filmmaking",
         "desc": "Cinematic photography and visual storytelling focused on capturing atmosphere, emotion, and meaningful moments.",
         "projects": "Explore my work",
-        "contact": "Get in Touch"
+        "contact": "Get in Touch",
+        "selected-work": "Selected Work",
+        "selected-desc": "A selection of recent projects and visual stories.",
+        "view-all": "View All Projects",
+        "gallery": "Through My Lens",
+        "about-title": "This is Enger",
+        "about-desc": "I’m Enger Cabrera, a photographer and filmmaker focused on creating honest, intentional images that capture people, stories, and meaningful moments.",
+        "about-cta": "Learn More",
+        "contact-title": "Have a project in mind?",
+        "contact-desc": "Let’s create something worth remembering."
     },
     "about": {
         "title": "You're on about me page"
