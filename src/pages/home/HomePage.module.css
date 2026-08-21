@@ -1,0 +1,38 @@
+.hero{
+    background-image: url("../../assets/images/hero-bg-light.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: var(--space-md);
+    color: aliceblue;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+[data-theme="dark"] .hero{
+    background-image: url("../../assets/images/hero-bg-dark.avif");   
+}
+.cta_container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--space-sm);
+    justify-content: end;
+    align-items: center;
+}
+.cta_container > a{
+    background-color: gray;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-sm);
+    transition: var(--duration-fast);
+}
+.cta_container > a:hover{
+    transform: scale(1.02) translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+.cta_container > :nth-child(1){
+    background-color: var(--color-primary);
+}
+.cta_container > :nth-child(2){
+    background-color: var(--color-secondary);
+}

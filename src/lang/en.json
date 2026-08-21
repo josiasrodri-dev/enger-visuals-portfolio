@@ -1,6 +1,9 @@
 {
     "home": {
-        "title": "You're on home page"
+        "title": "Enger Visuals",
+        "desc": "Cinematic photography and visual storytelling focused on capturing atmosphere, emotion, and meaningful moments.",
+        "projects": "Explore my work",
+        "contact": "Get in Touch"
     },
     "about": {
         "title": "You're on about me page"
